@@ -3,31 +3,18 @@ body {
     font-family: sans-serif;
 }
 
-td {
+td{
     padding: 5px;
+}
+
+td:nth-child(odd) {
+    background-color: #6356dc;
+}
+td:nth-child(even) {
+    background-color: #8a7dfe;
 }
 
 h1 {
     text-align: center;
-    color: #685be0;
-}
-
-.coluna1 {
-    background-color: #7c6fef;
-}
-
-.coluna2 {
-    background-color: #5e50d8;
-}
-
-.coluna3 {
-    background-color: #5d50d0;
-}
-
-.coluna4 {
-    background-color: #7c6fef;
-}
-
-.coluna5 {
-    background-color: #5e50d8
+    color: #6356dc
 }
